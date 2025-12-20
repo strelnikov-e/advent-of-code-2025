@@ -32,7 +32,6 @@ function part1() {
                 point -= 100;
                 result++;
             }
-            // console.log("POINT: "  + point);
         }
     }
 
@@ -46,7 +45,6 @@ function part2() {
         const sign = line.charAt(0) == 'L';
         const slice = sign? - Number(line.slice(1)): Number(line.slice(1));
         let shouldAdd = point !== 0;
-        // console.log(`Point: ${point}`);
         point += slice;
 
         while (point < 0)
@@ -64,8 +62,6 @@ function part2() {
             point -= 100;
             result++;
         }
-        // console.log(`Slice: ${slice} = ${point}, Result: ${result}`);
-
     }
     return result
 }

@@ -41,24 +41,6 @@ function part2() {
     return result
 }
 
-// function part2() {
-//     let result = 0
-//     let y = 0;
-//     let x = 0;
-//     while (y < map.length) {
-//         const row = map[y];
-//         while (x < row.length) {
-//             let removable = getObjectsAround(x, y);
-//             if (removable) {
-//                 result++
-//             }
-//             x++;
-//         }
-//         y++;
-//     }
-//     return result
-// }
-
 const p1res = part1();
 const p2res = part2();
 
